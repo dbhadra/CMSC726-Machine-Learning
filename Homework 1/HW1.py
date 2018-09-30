@@ -35,7 +35,7 @@ theta0= np.random.randn(1,1)
 alp = 1e-3
 num_iterations = 1000
 
-# Gradient Step
+# Stochastic Gradient Step
 def gradient_step(theta_current_0,theta_current_x1, x1, y, alp):
     
     grad_theta1 = np.zeros((1,n))
